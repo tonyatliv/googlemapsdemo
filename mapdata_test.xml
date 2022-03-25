@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='ISO-8859-1'?><markers>
+<marker postcode='L1 6DP' value='51'  />
+<marker postcode='L3 8HB' value='22'  />
+<marker postcode='L3 8JX' value='82'  />
+<marker postcode='L3 2BE' value='30'  />
+<marker postcode='L3 8NG' value='45'  />
+<marker postcode='L3 8EN' label="cars" />
+<marker postcode='L3 8LG' value='69'  />
+<marker postcode='L3 5TB' value='1535' hover='big car park' html='pop-up window can even contain &lt;b&gt;links etc.&lt;/b&gt;'> </marker>
+<marker postcode='L1 6JH' value='333' label="Victoria St (333)"   />
+</markers>

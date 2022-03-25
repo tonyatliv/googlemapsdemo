@@ -1,0 +1,38 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="initial-scale=1.0">
+<title>map</title>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"> </script>
+<!--
+Insert an api key, like this...
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=insert_api_key_here"> </script>
+-->
+
+<script type="text/javascript" src="maptools.js" > </script>
+<script type="text/javascript" src="makemap.js"> </script>
+<script type="text/javascript">
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+
+
+<div style="padding:6px;font-size:18px;">
+    <form>
+        <label for="Dataset">Choose a Dataset:</label>
+        <select id="Dataset" name="Dataset" onchange="reload()">
+        <option value="test">Car Parks</option>
+        <option value="crime">Crime</option>
+        </select>
+
+    &nbsp; <label id="info"> </label>
+    </form>
+</div>
+
+<div id="map-canvas" style="width: 90%; height:90%;" ></div>
+<br />
+
+</body>
+</html>
